@@ -86,11 +86,12 @@ if __name__ == "__main__":
                 print("\n")
                 if len(track) == 0:
                     print("NO BOOKS ARE ISSUED!. \n")
-            
+
             elif usr_response == 6: #exit
                 print("THANK YOU ! \n")
                 exit()
             else:
                 print("INVAILD INPUT! \n")
         except Exception as e:              #catch errors
-            print(f"{e}---> INVALID INPUT! \n")
+            print(f"{e}---> INVALID INPUT into the choice menu! \n")
+
